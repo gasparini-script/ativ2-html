@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados, fonte externa e ligação com a folha de estilos. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- O cabeçalho reúne o título e a navegação entre as páginas. -->
+    <header class="cabecalho">
+        <h1>Engenharia de Software</h1>
+        <p>Um pouco sobre o que estou aprendendo no curso.</p>
+        <nav aria-label="Navegação principal">
+            <a href="https://pt.wikipedia.org/wiki/Engenharia_de_software" target="_blank" rel="noopener noreferrer">O curso</a>
+            <a href="#aprendizado">O que estou aprendendo</a>
+            <a href="#estudo">Como estudo</a>
+            <a href="estudos.html">Minha rotina de estudos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Esta seção apresenta o curso e o assunto da página. -->
+        <section id="curso" class="cartao">
+            <h2>O que é Engenharia de Software?</h2>
+            <p>
+                Eu pensava que Engenharia de Software era só programar. Pelo que
+                estou aprendendo, também é preciso planejar e testar os programas
+                para que eles funcionem bem para as pessoas.
+            </p>
+            <p>
+                Ainda estou no primeiro ano e muita coisa é nova para mim. Estou
+                começando pelo básico, como montar uma página usando HTML.
+            </p>
+            <!-- O texto alternativo descreve a imagem para quem não consegue vê-la. -->
+            <img
+                class="imagem-curso"
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                alt="Notebook aberto sobre uma mesa de trabalho">
+        </section>
+
+        <!-- As listas organizam os conteúdos e as etapas de estudo. -->
+        <section id="aprendizado" class="cartao">
+            <h2>O que estou aprendendo</h2>
+            <p>Por enquanto, estou estudando:</p>
+            <ul>
+                <li>Como organizar uma página com HTML;</li>
+                <li>Para que servem algumas tags;</li>
+                <li>Como deixar o código mais fácil de entender.</li>
+            </ul>
+        </section>
+
+        <section id="estudo" class="cartao">
+            <h2>Como costumo estudar</h2>
+            <p>Quando vou praticar, tento seguir estes passos:</p>
+            <ol>
+                <li>Releio o conteúdo da aula;</li>
+                <li>Faço um exemplo simples;</li>
+                <li>Anoto o que ainda não entendi.</li>
+            </ol>
+        </section>
+
+        <section id="material" class="cartao">
+            <h2>Um material útil</h2>
+            <p>
+                Quando tenho dúvida sobre HTML, posso consultar
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">a documentação da MDN</a>.
+                O link abre em outra aba.
+            </p>
+        </section>
+    </main>
+
+    <!-- O rodapé encerra o conteúdo da página. -->
+    <footer class="rodape">
+        <p>Trabalho de HTML - Engenharia de Software - RAFAEL GASPARINI</p>
+    </footer>
+</body>
+</html>

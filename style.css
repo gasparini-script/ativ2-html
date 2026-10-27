@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+/* Estilos gerais da página. */
+body {
+    margin: 0;
+    background-color: #1b1b1b;
+    color: #dddddd;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+}
+
+/* As mesmas cores são usadas nos títulos. */
+h1,
+h2 {
+    color: #b6d6ce;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+a {
+    color: #9dc6e3;
+    text-decoration: underline;
+}
+
+/* Classe que organiza o conteúdo da página. */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.cabecalho {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #555555;
+}
+
+nav a {
+    margin: 0 5px;
+}
+
+/* Cada seção tem espaço interno, externo e uma borda. */
+.cartao {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #252525;
+    border: 1px solid #555555;
+}
+
+#curso {
+    border-left: 3px solid #789c92;
+}
+
+.imagem-curso {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #555555;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.rodape {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #555555;
+}
